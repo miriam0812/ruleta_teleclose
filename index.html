@@ -1,1 +1,50 @@
-<!-- refresh -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Teleclose · Ruleta de Objeciones</title>
+  style.css
+</head>
+<body>
+<header class="topbar">
+  <h1>🎯 Teleclose · Ruleta de Objeciones</h1>
+  <div class="toolbar">
+    <button id="fsBtn" class="ghost">Pantalla completa</button>
+  </div>
+</header>
+
+<main class="layout" id="app">
+  <section class="wheel-wrap" id="wheelWrap">
+    <div class="pointer">▲</div>
+    <canvas id="wheel" width="560" height="560"></canvas>
+    <div class="actions">
+      <button id="spinBtn" class="primary">Girar</button>
+    </div>
+  </section>
+
+  <section class="panel" id="sidePanel">
+    <h2>Objeciones</h2>
+    <ol id="legend"></ol>
+  </section>
+</main>
+
+<dialog id="card">
+  <article>
+    <header><h2 id="cardTitle"></h2></header>
+    <div id="timerBox">Tiempo restante: <span id="timer">15</span>s</div>
+    <div id="questionBox">¿CÓMO LO RESOLVERÍAS?</div>
+    <footer class="card-actions">
+      <button id="closeCard" class="secondary">Volver</button>
+      <button id="spinAgain" class="primary">Girar de nuevo</button>
+    </footer>
+  </article>
+</dialog>
+
+assets/ruleta.wav</audio>
+assets/gong.wav</audio>
+
+script.js</script>
+</body>
+</html>
